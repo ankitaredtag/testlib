@@ -1,5 +1,5 @@
 <?php
-namespace UserManagement;
+namespace UserClass;
 
 class UserManagement {
 	protected $_userID;
