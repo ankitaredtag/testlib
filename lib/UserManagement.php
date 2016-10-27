@@ -1,4 +1,6 @@
 <?php
+namespace UserManagement;
+
 class UserManagement {
 	protected $_userID;
 	function __construct(){
