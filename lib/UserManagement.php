@@ -15,7 +15,7 @@ class UserManagement {
 	}
 
 	public function clearCookie(){
-		setcookie("userIdentificationHash", null, strtotime("-1 day"), "/", ".redtag.ca", false, true);
+		setcookie("userIdentificationHash", null, strtotime("-1 day"), "/", ".test.ca", false, true);
 	}
 
 	private function _generateUserID(){
@@ -23,6 +23,6 @@ class UserManagement {
 	}
 
 	private function _setCookie(){
-		setcookie('userIdentificationHash', $this->_userID, strtotime("+1 year"), "/", ".redtag.ca", false, true);
+		setcookie('userIdentificationHash', $this->_userID, strtotime("+1 year"), "/", ".test.ca", false, true);
 	}
 }
