@@ -1,0 +1,14 @@
+{
+    "name": "library/flights",
+    "description": "flights backend library",
+    "keywords": [],
+    "license": "MIT",
+    "homepage": "https://github.com/ankitaredtag/testlib.git",
+    "require": {
+    },
+    "autoload": {
+        "classmap": [
+            "/lib"
+        ]
+    }
+}
